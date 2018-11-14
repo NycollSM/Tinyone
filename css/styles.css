@@ -1,6 +1,47 @@
-@import 'partials/helpers';
-@import 'partials/variables';
-@import 'content/header';
-@import 'content/content';
-@import 'content/footer';
-@import 'breakpoints/breakpoints';
+* {
+  margin: 0;
+  padding: 0; }
+
+.container {
+  width: 1100px;
+  margin: 0 auto; }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+.bg-yellow {
+  width: 100%;
+  background: #fcdb00; }
+
+.header {
+  background: #fcdb00;
+  color: black; }
+
+#header1 {
+  padding: 50px; }
+
+#header1 img {
+  float: left; }
+
+.menu {
+  float: right; }
+
+.menu li {
+  color: black;
+  list-style: none;
+  float: left;
+  margin-left: 70px;
+  font-size: 22px; }
+
+.info-header {
+  float: left; }
+
+.icons-header {
+  float: left; }
+
+.img-tablet {
+  float: right; }
+
+/*# sourceMappingURL=styles.css.map */

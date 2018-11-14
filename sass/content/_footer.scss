@@ -1,0 +1,40 @@
+.bg-black{
+    background: black;
+}
+#footer{
+    color: $color-header;
+}
+.color-gray{
+    color: gray;
+}
+.email{
+    text-align: center;
+}
+input{
+    height: 30px;
+    width: 340px;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 16px;
+    border: 0 solid;
+}
+button{
+    border-radius: 4px;
+    border: 0 solid;
+    height: 35px;
+    width: 170px;
+    font-size: 16px;
+    background: $color-header;
+    color: black;
+    font-family: "PT sans";
+    text-align: center;
+}
+.links{
+    float: left;
+    margin: 15px;
+    margin: 0 auto;
+}
+.links ul {
+    float: left;
+    margin: 15px;
+}

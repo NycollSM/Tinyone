@@ -129,7 +129,7 @@ button {
 
 .links_container {
   background: yellow;
-  margin: 5px;
+  margin: 1%;
   text-align: center; }
 
 .links_container ul {
@@ -137,17 +137,12 @@ button {
   width: 120px;
   float: left; }
 
-.sprite {
+.sprite a {
   background: url(../img/sprite.png);
   background-repeat: no-repeat;
-  display: inline-block;
-  height: 100px;
-  width: 100%; }
-
-.facebook {
-  background-position: 2px 2px; }
+  padding: 45px 0; }
 
 .twitter {
-  background-position: 2px -100px; }
+  background-position: 100px 0; }
 
 /*# sourceMappingURL=styles.css.map */

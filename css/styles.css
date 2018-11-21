@@ -4,9 +4,10 @@
   font-family: 'PT sans'; }
 
 .container {
-  height: 700px;
+  height: 600px;
   width: 1100px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding: 2%; }
 
 .clearfix::after {
   content: "";
@@ -36,7 +37,7 @@ li {
   color: black; }
 
 #header1 {
-  padding: 50px 0; }
+  padding: 30px 0; }
 
 #header1 img {
   float: left; }
@@ -47,8 +48,11 @@ li {
 .menu li {
   color: black;
   float: left;
-  margin-left: 70px;
-  font-size: 22px; }
+  margin-right: 60px;
+  font-size: 20px; }
+
+.menu-tablet {
+  display: none; }
 
 .content-header {
   float: left; }
@@ -57,21 +61,22 @@ li {
   text-align: center; }
 
 .info-left {
-  margin-top: 120px;
+  margin-top: 10%;
   width: 40%; }
 
 .info-left h2 {
-  margin-bottom: 20px; }
+  margin-bottom: 3%; }
 
 .info-left p {
-  padding-bottom: 20px; }
+  padding-bottom: 5%; }
 
 .icons-header {
   float: left;
-  margin-right: 30px; }
+  margin: 7%; }
 
 .img-tablet {
-  float: right; }
+  float: right;
+  height: 360px; }
 
 h3 {
   margin: 15px; }

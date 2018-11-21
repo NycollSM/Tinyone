@@ -7,7 +7,7 @@
     color: black;
 }
 #header1{
-    padding: 50px 0;
+    padding: 30px 0;
 }
 #header1 img{
     float: left;
@@ -18,29 +18,34 @@
 .menu li{
     color: black;
     float: left;
-    margin-left: 70px;
-    font-size: 22px;
+    margin-right: 60px;
+    font-size: 20px;
+}
+.menu-tablet{
+    display: none;
 }
 .content-header{
     float: left;
 }
+
 .info-header{
     text-align: center;
 }
 .info-left{
-    margin-top: 120px;
+    margin-top: 10%;
     width: 40%;
 }
 .info-left h2 {
-    margin-bottom: 20px;
+    margin-bottom:3%;
 }
 .info-left p{
-    padding-bottom: 20px;
+    padding-bottom: 5%;
 }
 .icons-header{
     float: left;
-    margin-right: 30px;
+    margin: 7%;
 }
 .img-tablet{
     float: right; 
+    height: 360px;
 }

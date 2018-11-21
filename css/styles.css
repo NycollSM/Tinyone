@@ -129,10 +129,12 @@ button {
 
 .links_container {
   background: yellow;
-  margin: 5px; }
+  margin: 5px;
+  text-align: center; }
 
 .links_container ul {
-  margin-left: 50px;
+  margin: 4%;
+  width: 120px;
   float: left; }
 
 .sprite {

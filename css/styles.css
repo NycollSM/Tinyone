@@ -7,6 +7,7 @@
   height: 600px;
   width: 1100px;
   margin: 0 auto;
+  align-items: center;
   padding: 2%; }
 
 .clearfix::after {
@@ -76,29 +77,25 @@ li {
 
 .img-tablet {
   float: right;
-  height: 360px; }
+  height: 360px;
+  margin-right: 20px; }
 
 h3 {
-  margin: 15px; }
+  margin: 5px; }
 
 .info {
-  width: 275px;
-  height: 115px;
-  margin: 40px 32px;
+  width: 31%;
+  margin: 1%;
   float: left; }
-
-.info_txt {
-  top: 0; }
 
 .info img {
-  padding: 5px;
-  height: 35px;
-  float: left; }
+  width: 32px;
+  float: left;
+  padding: 3%; }
 
 .info p {
-  margin-top: 10px;
   width: 200px;
-  margin-left: 50px; }
+  margin-left: 60px; }
 
 .bg-black {
   background: black; }

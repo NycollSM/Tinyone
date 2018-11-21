@@ -108,17 +108,18 @@ h3 {
   text-align: center; }
 
 input {
-  height: 30px;
-  width: 340px;
+  height: 35px;
+  width: 380px;
   padding: 5px;
   border-radius: 4px;
   font-size: 16px;
-  border: 0 solid; }
+  border: 0 solid;
+  margin-right: 25px; }
 
 button {
   border-radius: 4px;
   border: 0 solid;
-  height: 35px;
+  height: 45px;
   width: 170px;
   font-size: 16px;
   background: #fcdb00;
@@ -126,13 +127,25 @@ button {
   font-family: "PT sans";
   text-align: center; }
 
-.links {
-  float: left;
-  margin: 15px;
-  margin: 0 auto; }
+.links_container {
+  background: yellow;
+  margin: 5px; }
 
-.links ul {
-  float: left;
-  margin: 15px; }
+.links_container ul {
+  margin-left: 50px;
+  float: left; }
+
+.sprite {
+  background: url(../img/sprite.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 100px;
+  width: 100%; }
+
+.facebook {
+  background-position: 2px 2px; }
+
+.twitter {
+  background-position: 2px -100px; }
 
 /*# sourceMappingURL=styles.css.map */

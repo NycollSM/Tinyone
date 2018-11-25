@@ -130,7 +130,6 @@ button {
   text-align: center; }
 
 .links_container {
-  background: yellow;
   margin: 1%;
   text-align: center; }
 
@@ -154,5 +153,16 @@ button {
 
 .links li {
   color: gray; }
+
+@media (max-width: 992px) {
+  .container {
+    height: 600px;
+    width: 992px;
+    margin: 0 auto;
+    align-items: center;
+    padding: 2%; }
+
+  .links_container ul {
+    margin: 2%; } }
 
 /*# sourceMappingURL=styles.css.map */

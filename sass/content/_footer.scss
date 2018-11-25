@@ -40,11 +40,20 @@ button{
     width: 120px;
     float: left;
 }
+.sprite{
+    text-align: center;
+    margin: 3%;
+}
+
 .sprite a {
     background: url(../img/sprite.png);
     background-repeat: no-repeat;
     padding: 45px 0;
+    margin: 1%;
 }
 .twitter{
     background-position: 100px 0;
+}
+.links li{
+    color: gray;
 }

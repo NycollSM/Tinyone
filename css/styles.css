@@ -78,7 +78,7 @@ li {
 .img-tablet {
   float: right;
   height: 360px;
-  margin-right: 20px; }
+  margin-right: 10%; }
 
 h3 {
   margin: 5px; }
@@ -139,12 +139,20 @@ button {
   width: 120px;
   float: left; }
 
+.sprite {
+  text-align: center;
+  margin: 3%; }
+
 .sprite a {
   background: url(../img/sprite.png);
   background-repeat: no-repeat;
-  padding: 45px 0; }
+  padding: 45px 0;
+  margin: 1%; }
 
 .twitter {
   background-position: 100px 0; }
+
+.links li {
+  color: gray; }
 
 /*# sourceMappingURL=styles.css.map */

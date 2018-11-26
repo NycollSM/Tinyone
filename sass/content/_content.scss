@@ -1,7 +1,6 @@
 h3{
-   margin: 5px;
+    margin: 5px;
 }
-
 .info{
     width:31%;
     margin: 1%;
@@ -15,4 +14,22 @@ h3{
 .info p {
     width: 200px;
     margin-left: 60px;
+}
+.container_tablet{
+    margin-top: -500px;
+}
+.txt-tablet{
+    width: 31%;
+    margin: 15px;
+
+}
+.txt-tablet p {
+    width: 200px;
+}
+.txts{
+    float: right;
+    margin-top: -275px;
+}
+.content{
+    display: none;
 }

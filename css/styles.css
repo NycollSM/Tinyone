@@ -97,6 +97,23 @@ h3 {
   width: 200px;
   margin-left: 60px; }
 
+.container_tablet {
+  margin-top: -500px; }
+
+.txt-tablet {
+  width: 31%;
+  margin: 15px; }
+
+.txt-tablet p {
+  width: 200px; }
+
+.txts {
+  float: right;
+  margin-top: -275px; }
+
+.content {
+  display: none; }
+
 .bg-black {
   background: black; }
 
@@ -164,5 +181,51 @@ button {
 
   .links_container ul {
     margin: 2%; } }
+@media (max-width: 768px) {
+  * {
+    overflow-x: hidden; }
+
+  #header1 img {
+    margin-left: 20%; }
+
+  .img-tablet {
+    display: none; }
+
+  .menu li {
+    display: none; }
+
+  .info-left {
+    margin: 10% 18%; }
+
+  .titles {
+    margin: 0;
+    padding: 0; }
+
+  .content {
+    display: none; }
+
+  .container_tablet {
+    display: block; }
+
+  .container_tablet {
+    text-align: center; }
+
+  .content-tablet {
+    margin: 1%;
+    width: 18%; }
+
+  .content-tablet p {
+    width: 50px; }
+
+  .image-tablet {
+    top: 0; }
+
+  .content-tablet2 {
+    margin: 1%;
+    width: 18%;
+    float: left; }
+
+  .content-tablet2 p {
+    width: 50px; } }
 
 /*# sourceMappingURL=styles.css.map */

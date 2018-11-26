@@ -1,0 +1,50 @@
+@media (max-width: 768px){
+    *{
+        overflow-x: hidden;
+    }
+    //header
+    #header1 img{
+        margin-left: 20%;
+    }
+    .img-tablet{
+        display: none;
+    }
+    .menu li{
+       display: none;
+    }
+    .info-left{
+        margin: 10% 18%;
+    }
+    //contendor central
+    .titles{
+        margin: 0;
+        padding: 0;
+    }
+    .content {
+        display: none;
+    }
+    .container_tablet{
+        display: block;
+    }
+    .container_tablet{
+        text-align: center;
+    }
+    .content-tablet{
+        margin: 1%;
+        width: 18%;
+    }
+    .content-tablet p{
+        width: 50px;
+    }
+    .image-tablet{
+        top: 0;
+    }
+    .content-tablet2{
+        margin: 1%;
+        width: 18%;
+        float: left;
+    }
+    .content-tablet2 p{
+        width: 50px;
+    }
+}

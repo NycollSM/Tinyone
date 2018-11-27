@@ -15,17 +15,27 @@ h3{
     width: 200px;
     margin-left: 60px;
 }
-.txt-tablet{
-    margin: 15px;
-    width: 300px;
-    float: left;
+//informacion de tablet/mobile
+.left-txt , .right-txt {
+    width: 30%;
 }
-.txt-tablet p {
-    width: 200px;
+.txt-tablet{    
+    padding: 2%;
+}
+.txt-tablet p{
+    width: 75%;
 }
 .left-txt{
-    float: left;
+    float: right;
 }
-.content{
+.image-tablet{
+    float: right;
+    width: 30%;
+}
+.image-tablet img {
+    height: 350px;
+    margin-left: -10%;
+}
+.container-tablet{
     display: none;
 }

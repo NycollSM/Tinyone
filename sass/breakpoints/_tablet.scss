@@ -1,5 +1,14 @@
 @media (max-width: 768px){
     //header
+    .container{
+        width: 768px;
+    }
+    .menu{
+        display: none;
+    }
+    .img-tablet{
+        display: none;
+    }
     //contendor central
     .desktop{
         display: none;

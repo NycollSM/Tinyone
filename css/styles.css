@@ -15,7 +15,7 @@
   display: table; }
 
 .titles {
-  padding: 75px;
+  padding: 10%;
   text-align: center; }
 
 h2 {
@@ -178,7 +178,6 @@ button {
 
 @media (max-width: 992px) {
   .container {
-    height: 600px;
     width: 992px;
     margin: 0 auto;
     align-items: center;
@@ -187,6 +186,15 @@ button {
   .links_container ul {
     margin: 2%; } }
 @media (max-width: 768px) {
+  .container {
+    width: 768px; }
+
+  .menu {
+    display: none; }
+
+  .img-tablet {
+    display: none; }
+
   .desktop {
     display: none; }
 

@@ -103,7 +103,7 @@ h3 {
   padding: 2%; }
 
 .txt-tablet p {
-  width: 75%; }
+  padding: 4%; }
 
 .left-txt {
   float: right; }
@@ -133,18 +133,19 @@ h3 {
 
 input {
   height: 35px;
-  width: 380px;
-  padding: 5px;
+  width: 30%;
+  padding: 1%;
   border-radius: 4px;
   font-size: 16px;
   border: 0 solid;
-  margin-right: 25px; }
+  margin: 5%; }
 
 button {
   border-radius: 4px;
   border: 0 solid;
-  height: 45px;
-  width: 170px;
+  height: 50px;
+  width: 20%;
+  padding: 1%;
   font-size: 16px;
   background: #fcdb00;
   color: black;
@@ -152,12 +153,12 @@ button {
   text-align: center; }
 
 .links_container {
-  margin: 1%;
-  text-align: center; }
+  text-align: center;
+  margin: 0 auto; }
 
 .links_container ul {
-  margin: 4%;
-  width: 120px;
+  margin: 1%;
+  width: 18%;
   float: left; }
 
 .sprite {
@@ -189,16 +190,33 @@ button {
   .container {
     width: 768px; }
 
+  .header {
+    margin: 0 auto; }
+
+  #header1 img {
+    margin: 0 auto; }
+
   .menu {
     display: none; }
 
   .img-tablet {
     display: none; }
 
+  .info-left {
+    margin: 0 auto; }
+
   .desktop {
     display: none; }
 
   .container-tablet {
-    display: block; } }
+    display: block; }
+
+  .image-tablet img {
+    display: block;
+    margin-left: -30%; }
+
+  .links {
+    margin: 1%;
+    width: 13%; } }
 
 /*# sourceMappingURL=styles.css.map */

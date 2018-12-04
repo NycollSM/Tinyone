@@ -3,11 +3,20 @@
     .container{
         width: 768px;
     }
+    .header{
+        margin: 0 auto;
+    }
+    #header1 img{
+        margin: 0 auto;
+    }
     .menu{
         display: none;
     }
     .img-tablet{
         display: none;
+    }
+    .info-left{
+        margin: 0 auto;
     }
     //contendor central
     .desktop{
@@ -16,7 +25,15 @@
     .container-tablet{
         display: block;
     }
+    .image-tablet img{
+        display: block;
+        margin-left: -30%;
+    }
     //footer
+    .links{
+        margin: 1%;
+        width: 13%;  
+    }
 
 
 }

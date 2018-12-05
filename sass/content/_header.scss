@@ -6,11 +6,10 @@
     background: $color-header;
     color: black;
 }
-#header1{
-    padding: 30px 0;
-}
+
 #header1 img{
     float: left;
+    display: block;
 }
 .menu{
     float: right;
@@ -18,13 +17,13 @@
 .menu li{
     color: black;
     float: left;
-    margin-right: 60px;
+    margin: 20px;
     font-size: 20px;
 }
 .menu-tablet{
     display: none;
 }
-.content-header{
+#content-header{
     float: left;
 }
 
